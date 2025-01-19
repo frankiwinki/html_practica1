@@ -1,0 +1,40 @@
+.header{
+    border: none;
+    margin: none;
+}
+.titulo{
+    text-align: center;
+    background-color: #00ffff;
+    color: azure;
+}
+.cv-section{
+color: orange;
+}
+.names {
+    color:black ;
+}
+.cv-tecnico2{
+    color: orange;
+}
+.tecnique{
+color: black;
+}
+.tecnique2{
+    color: black;
+}
+.cv-maestria{
+    color: orange;
+}
+.programer{
+    color: black;
+}
+.letters{
+    columns:2;
+    font-size: 16px
+}
+.analist{
+    color: black;
+}
+.jefe{
+    color: black;
+}
