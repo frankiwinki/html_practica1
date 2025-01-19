@@ -1,0 +1,25 @@
+body{
+    background-color:lightskyblue;
+}
+span{
+    color: orange;
+}
+.nombre , .name , .movie , .pc{
+    color: green;
+    background-color: white;
+}
+header{
+    text-align:right;
+}
+.head{
+    color: black;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xd{
+    color: red;
+}
+p{
+    margin-bottom: 15px;
+}
