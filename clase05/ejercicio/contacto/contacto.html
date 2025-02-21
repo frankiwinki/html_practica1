@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas de Gaseosas - 2024</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            text-align: center;
+        }
+        canvas {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ventas de Gaseosas - Año 2024</h1>
+    <canvas id="ventasChart"></canvas>
+</div>
+
+<script>
+    const ctx = document.getElementById('ventasChart').getContext('2d');
+
+    const ventasChart = new Chart(ctx, {
+        type: 'bar', // Tipo de gráfico (barras)
+        data: {
+            labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'], // Meses
+            datasets: [{
+                label: 'Ventas de Gaseosas (en litros)', // Etiqueta de la serie
+                data: [1500, 1700, 1800, 1600, 2000, 2100, 2500, 2300, 2200, 2400, 2700, 2900], // Datos de ventas
+                backgroundColor: 'rgba(75, 192, 192, 0.2)', // Color de las barras
+                borderColor: 'rgba(75, 192, 192, 1)', // Color del borde de las barras
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            return tooltipItem.label + ': ' + tooltipItem.raw + ' Litros';
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true, // Comienza el eje Y desde cero
+                    ticks: {
+                        stepSize: 500 // Incremento en las unidades del eje Y
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

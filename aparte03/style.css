@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+
+}
+.container{
+    margin: 50px auto;
+    width: 800px;
+    height: 600px;
+    background-color: blueviolet;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    
+}
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 60px;
+    flex-direction: row;}
+.box2{
+    
+}
+
+.box3{
+    top: 0;
+    right: 0;
+}
+
+
+
+

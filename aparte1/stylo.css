@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+header{
+    text-align: left;
+    color: dimgray;
+    font-size: 35px;
+    background-color: #4CAF50;
+}
+
+.store{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.cara{
+    font-size: 20px;
+}
+.img1{
+    margin: 20px 20px 20px 20px;
+}
+.img2{
+    margin: 30px 40px 30px 40px;
+    font: 500px;
+}
+.end{
+    width: auto;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.second{
+    color: aqua;
+    background-color: #333;
+}
+.biolo{
+align-content: center;
+}
+.container{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;    
+    width: 100%;
+    text-align: center;
+}
+.card{
+    margin: 10px;
+    display: inline-block;
+    width: 23%;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding: 1%;
+    box-shadow: #333;
+}
+.btn-agregar{
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 5px;
+    padding: 5px 5px 5px px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-agregar:hover{
+    cursor: pointer;
+    
+}

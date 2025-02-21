@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.store {
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;
+}
+.hora{
+    color:darkcyan;
+}
+.cara{
+    margin-top: 30px;
+    padding: 5px 10px 10px 5px;
+}
+.neutro{
+    text-align: center;
+    font-size: 30px;
+    background:linear-gradient(yellow,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

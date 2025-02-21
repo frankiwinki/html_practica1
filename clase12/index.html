@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <fieldset>
+    <!-- etiqueta padre para fomualrios -->
+    <form action="">
+        <div>
+            <!-- minleght y max leght usar para caracteres en type text -->
+            <!-- MIN Y MAX SE USAN PARA PONER EL NUMERO MAX Y MENOR EN TUIPO NUMBER -->
+            <!-- EL ACTION SIRVBE OARA IDENTIFICAR A QUE PAGUNA VAMOS A ENVIAR LA INFORMAcion -->
+            <!-- el for y el id se vinculan -->
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Ingresa tu nombre">
+            <!-- label es elemento de linea -->
+            <!-- para que no se vean en una fila usamos; -->
+        </div>
+        <br>
+    <div>
+        <label for="">desfripcion</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="    correo">correo</label>
+        <input id="correo" type="email">
+    </div>
+    <br>
+    <div>
+        <label for="contraseña">ingrese su contraseña</label>
+        <input id="contraseña" type="pasword">
+    </div>
+    <br>
+    <!-- para opciones: -->
+    <div>
+        <p>Seleccione su genero:</p>
+        <label for="">hombre</label>
+        <input type="radio" name="genero" value="hombre">
+        <label for="">mujer</label>
+        <input type="radio" name="genero" value="mujer">
+    </div>
+    <br>
+    <div>
+        
+        <!-- para seleciionar: -->
+        <label for="">Seleccione su edad</label>
+                <select name="" id="">
+                <option value="">Seleccione</option>
+                <option value="hombre">hombre</option>
+                <option value="mujer">mujer</option>
+                <option value="otro">otro</option>
+            </select>
+    </div>
+    <br>
+    <div>
+        <label for="">fecha:</label>
+        <input type="date">
+    </div>
+    <br>
+    <div>
+        <label for="">fichero</label>
+        <input type="file">
+    </div>
+    <br>
+    <div>
+        <label for="">telefono</label>
+        <input type="tel">
+    </div>
+    <br>
+    <div>
+        <label for="">numero</label>
+        <input type="number">
+    </div>
+    <br>
+    <div>
+        <label for="">hora</label>
+        <input type="time">
+    </div>
+    <br>
+    <div>
+        <label for="">SitioWeb</label>
+        <input type="url">
+    </div>
+    <br>
+    <div>
+        <label for="">front-end</label>
+        <input type="checkbox" name="edad" value="front-end">
+        <label for="">back-end</label>
+        <input type="checkbox" name="edad" value="back-end">
+
+
+        
+    </div>
+    <br>
+    <!-- lo mismo; -->
+    <button type="submit">Enviar</button>
+    <input type="submit" value="enviar">
+    </form>
+</fieldset>
+</body>
+</html>

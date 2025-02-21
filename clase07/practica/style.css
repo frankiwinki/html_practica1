@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray
+    ;
+}
+.contenedor{
+    color: black;
+    background-color: black;
+    margin: 50px auto;
+    width: 1200px;
+    height: 800px;
+
+/* Flexbox */
+display: flex;
+flex-direction: column;
+/* eje principal */
+justify-content: flex-end;
+justify-content: center;
+justify-content: flex-start;
+    
+
+}
+.caja{
+    border: 1px solid black;
+    width: 180px;
+    height: 160px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+
+}
+.caja1{
+    background-color:rgb(255, 127, 127);
+    padding-top: 60px;
+        
+
+    
+}
+
+
+.caja2{
+    background-color:  rgb(255, 191, 127);
+    padding-top: 60px;
+}
+.caja3{
+    background-color: rgb(255, 223, 127);
+    padding-top: 60px;
+    
+}
+.caja4{
+    background-color:  rgb(255, 255, 127);
+    padding-top: 60px;
+}
+.caja5{
+    background-color:  rgb(191, 255, 127);
+    padding-top: 60px;
+}
+

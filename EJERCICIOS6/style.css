@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:skyblue;
+}
+.titulo{    
+    text-align: center;
+    color: skyblue;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.container{
+    
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 600px;
+    height: auto;
+    margin: 30px auto;
+    background-color: white;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.datos{
+    padding-left: 30px;
+    padding-right: 100px;
+    width: 500px;
+}
+.datos input{
+    width: 500px;
+    border: 1px solid skyblue;
+    height: 40px;
+}
+textarea{
+    border: 1px solid skyblue;
+}
+.boton{
+    margin-top: 20px;
+    width: 500px;
+    padding-bottom: 20px;
+    border: 1px solid blue;
+    border-radius: 10px ;
+    height: 40px;
+    
+    padding-bottom: 30px;
+    background-color:skyblue;
+    
+}
+

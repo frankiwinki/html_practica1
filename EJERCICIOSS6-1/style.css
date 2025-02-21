@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-contenedor{
+
+margin-left: 410px;
+margin-right: 1110px;
+
+
+width: 900px;
+
+display: flex;
+
+justify-content: space-between;
+padding-top: 2.5rem;
+align-items: center;
+font-weight: bold;
+
+}  
+
+
+.navegacion_link , .navegacion_registrar{
+    color:#000;
+    text-decoration: none;
+    padding-left: 10px;
+    width: 25rem;
+    font-size: 1.25rem;
+    
+    
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    
+    
+}
+.navegacion_registrar{
+    color:#ffff ;
+    border: .625rem solid #e8505b ;
+    border-radius: .625rem;
+    background-color: #e8505b;
+    margin-left: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    
+    
+    
+}
+a:hover{
+    background-color: blue;
+    color: white;
+    
+    transition: all 2s;
+}
+
+.formulario {
+    color: #ffff;
+    color: #ffff;
+    background-color: #e8505b;
+    width: 36.25rem;
+    margin-left: 22.5rem;
+    height: 37.5rem;
+    
+    height: 36.25rem;
+
+}
+.formulario_cabeza{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-left: 3.75rem;
+    padding-right: 2.5rem;
+}
+
+.formulario_input{
+    padding-top: 4.375rem;
+    
+
+}
+.formulario_input input{
+    width: 31.25rem;
+    height: 3.125rem;
+    padding: .625rem .625rem .625rem .625rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+
+}
+.formulario_texto{
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+.formulario_boton{
+    text-decoration: none;
+    border: .0625rem solid #000;
+    border-radius: .9375rem;
+    width: 31.25rem;
+    height: 3.125rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1.875rem;
+    color:#eceeef;
+    background-color: #455a64;
+    font-size: 19.2px;
+    
+}
+.pasos_contenido{
+    background-color: #e8505b;
+    
+    
+    height: 100%;
+    margin-top: 6.25rem;
+    display: grid;
+    grid-template-columns: repeat(7, 5fr
+    );
+    
+    
+}
+
+
+.pasos_contenido_titulo {
+    color: #ffff;
+    padding-top: 2.5rem;
+    
+    font-size: 32px;
+}
+.pasos_contenido_subtitulo{
+    padding-top: 0rem;
+    color: #eceeef;
+    text-align: center;
+    font-size: 1.125rem;
+}
+.fooder_text{
+    background-color: #e8505b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 3rem;
+
+}
+.footer{
+    color: #eceeef;
+    
+}
+.color{
+    text-decoration: none;
+}
+.footer__link {
+    line-height: 1.8;
+    color: #ffffff;
+    width: 370px;
+}
+a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+/* Contenedor principal */
+.favoritos_contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+    gap: 30px; /* Espacio entre tarjetas */
+    padding: 40px;
+    background: #f5f5f5;
+}
+
+/* Tarjetas */
+.tarjeta {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Imagen del logo */
+.favorito_imagen img {
+    width: 90px;
+}
+
+/* Contenedor del contenido */
+.imagen_contenido {
+    flex: 1;
+}
+
+/* Estrellas */
+.estrellas {
+    font-size: 20px;
+    color: gold;
+}
+
+/* Nombre del restaurante */
+.imagen_nombre {
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Texto */
+.imagen_texto  {
+    font-size: 14px;
+    color: #555;
+}
+.fnd{
+top: 20px;
+    background-color: #eceeef;
+}
+/* RESPONSIVE: 1 tarjeta por fila en móviles */
+@media (max-width: 768px) {
+    .favoritos_contenedor {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.repartidores{
+    height: 100%;
+    width: 1700px;
+    display: flex;
+    margin-left: 500px;
+    flex:3;
+}
+.repartidores_texto{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    width: 1;
+}
+
+.repartidores_titulo{
+    text-align: end;
+    color: #455a64;
+    font-size: 2rem;
+}
+.repartidores_imagen{
+    
+    display: grid
+    ;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    
+}
+
+
+
+
+
+
+/*  */
+.footer_contenedor {
+    background-color: #3f525a;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer_grid,
+.footer__widget,
+.footer_contacto {
+    max-width: 300px;
+}
+
+.footer_header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer_texto {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+
+.favoritos_contenedor{
+    background-color: #eceeef;
+}
+.favorito_titulo{
+    text-align: center;
+}

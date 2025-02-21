@@ -1,0 +1,47 @@
+body {
+    background-color: black; /* Fondo oscuro */
+    font-family: Arial, sans-serif; /* Fuente más agradable */
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position:left;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around; /* Alinea los videos de forma más equilibrada */
+    flex-wrap: wrap; /* Permite que los videos se ajusten en varias filas si es necesario */
+    gap: 20px; /* Espaciado entre los videos */
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.video, .video-1, .video-2 {
+    flex: 1 1 30%; /* Cada video ocupa el 30% del espacio */
+    background-color: #FF9A00; /* Fondo naranjo suave */
+    border: 1px solid #fff; /* Borde blanco más suave */
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave */
+    transition: transform 0,3s ease; /* Animación suave para el hover */
+}
+
+.video:hover, .video-1:hover, .video-2:hover {
+    transform: translateY(-20px); /* Efecto de elevación al pasar el ratón */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+video {
+    width: 100%; /* Asegura que los videos se adapten al tamaño del contenedor */
+    border-radius: 8px;
+}

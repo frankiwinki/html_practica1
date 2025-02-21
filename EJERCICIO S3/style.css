@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo{
+    background-color: white;
+    width: 30%;
+    padding: 200px;
+    margin: 50px 0px 50px 30%;
+    border: 30px solid whitesmoke;
+    border: radius 10px;
+}
+body{
+    background-color:burlywood;text-align: center;
+}
+.all{
+width: px;
+position: fixed;
+width: 80%;
+
+}
+.subtitulo{
+color: brown;
+
+}
+.diet{
+    padding: 20px 0px 10px 20px;
+}
+.number{
+    padding: 0px 0px 0px 20px;
+}

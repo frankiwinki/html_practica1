@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    font-size: 20px;
+}
+
+.opinion {
+    width: 70%;
+    margin: 40px auto;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+
+    /* em */
+    padding: 2em;
+    /* 2*40 = 80px */
+
+    /* font-size: 50px; */
+    font-size: 2em;
+    /* 20*2 = 40px */
+}
+
+.text {
+    font-size: 20px;
+}

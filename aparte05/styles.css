@@ -1,0 +1,112 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    width: 460px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-options {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .difficulty {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .sudoku-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .sudoku-grid input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .sudoku-grid input:focus {
+    border: 1px solid #000;
+  }
+  
+  .sudoku-grid .bold {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+  }
+  
+  .mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .sudoku-grid input.correct {
+    background-color: #d4edda;
+  }
+  
+  .sudoku-grid input.incorrect {
+    background-color: #f8d7da;
+  }
+  
+  .sudoku-info {
+    font-size: 18px;
+    color: #333;
+  }
+  

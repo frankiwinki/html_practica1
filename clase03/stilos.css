@@ -1,0 +1,28 @@
+/* combinadores */
+ 
+/* h1 {
+  color: red;
+}
+ 
+p {
+  color: red;
+} */
+ 
+/* h1,
+p {
+  color: red;
+} */
+ 
+/* combinadores descendientes */
+
+.contenedor h2 {
+    color: red;
+}
+/*
+h2 {
+    color: blue;
+  } */
+.contenedor p {
+    color: green;
+    font-size: 20px;
+}

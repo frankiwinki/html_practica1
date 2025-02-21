@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuerpo{
+    background-color: burlywood;
+    width: 600px;
+}
+.pie{
+    background-color: blue;
+    width: 600px;
+}
+.uña
+{background-color: darkgreen;
+width: 600px;
+}
+.todo
+{
+    display: flex;
+}

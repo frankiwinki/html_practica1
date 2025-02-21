@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja1{
+    margin: 30px 30px 30px 30px;
+    padding: 20px 30px 30px 20px;
+    border: 10px solid yellow;
+    width: 100px;
+}
+.caja2{
+    margin: 30px 30px 30px 30px;
+    padding: 20px 30px 30px 20px;
+    border: 10px solid green;
+    width: 100px;
+}
+.caja3{
+    margin: 110px 30px 30px 30px;
+    padding: 20px 30px 30px 20px;
+    border: 10px solid red;
+    width: 100px;
+}
+.caja4{
+    margin: 30px 30px 30px 30px;
+    padding: 20px 30px 30px 20px;
+    border: 10px solid blue;
+    width: 100px;
+}
+span{
+    text-align: center
+}
+
+.xdd{
+    color: aqua;
+    text-align: end;
+    text-transform: lowercase;
+    text-decoration: magenta;
+}
